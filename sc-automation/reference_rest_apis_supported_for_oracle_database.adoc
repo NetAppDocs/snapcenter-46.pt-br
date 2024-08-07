@@ -1,0 +1,115 @@
+---
+permalink: sc-automation/refrence_rest_apis_supported_for_oracle_database.html 
+sidebar: sidebar 
+keywords: REST APIs, oracle database 
+summary: Descreve os fluxos de trabalho de APIs REST compatíveis com o banco de dados Oracle 
+---
+= APIs REST compatíveis com banco de dados Oracle
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O banco de dados Oracle usa APIS REST para executar as seguintes operações:
+
+
+
+== Credenciais
+
+* Registre a credencial no servidor SnapCenter
+* Recuperar credencial registrada no servidor SnapCenter
+* Recuperar credencial por nome
+* Modificar credencial
+* Eliminar credencial
+
+
+
+
+== Host
+
+* Adicionar host
+* Remova um ou mais hosts do SnapCenter
+* Recuperar um host pelo nome
+
+
+
+
+== Plug-in
+
+* Instalação de plug-ins no host existente
+* Atualize o plug-in
+
+
+
+
+== Política
+
+* Criar nova política
+* Recuperar política por nome
+* Modificar política
+* Eliminar política
+
+
+
+
+== Grupos de recursos
+
+* Proteger o grupo de recursos
+* Modifique a proteção
+* Remova a proteção
+* Criar novo grupo de recursos
+* Recuperar grupo de recursos por nome
+* Modificar grupo de recursos
+* Eliminar grupo de recursos
+
+
+
+
+== Recursos
+
+* Descubra bancos de dados
+* Configure a base de dados
+
+
+
+
+== Backups
+
+* Inicie uma operação de backup de recursos
+* Inicie uma operação de backup
+* Recuperar backups por nome
+* Recuperar backups
+* Eliminar uma cópia de segurança pelo nome
+
+
+
+
+== Restaurar
+
+* Restaurar uma cópia de segurança
+
+
+
+
+== Atualização de clone
+
+* Crie uma especificação de clone do Oracle Database a partir de um backup especificado
+* Exiba, modifique e exclua o arquivo específico do clone
+* Atualização de clone
+
+
+
+
+== RBAC
+
+* Atribua recursos a um usuário ou grupo
+* Anular a atribuição de recursos a um utilizador ou grupo
+
+
+
+
+== Definições de configuração
+
+* Recuperar e modificar as configurações
+

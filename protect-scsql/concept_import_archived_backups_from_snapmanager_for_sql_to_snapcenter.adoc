@@ -1,0 +1,16 @@
+---
+permalink: protect-scsql/concept_import_archived_backups_from_snapmanager_for_sql_to_snapcenter.html 
+sidebar: sidebar 
+keywords:  
+summary: A importação de dados do SnapManager para o SnapCenter permite que você continue a usar seus dados de versões anteriores. Você pode importar apenas os backups que foram arquivados usando a tecnologia SnapVault do SnapManager para o SnapCenter. 
+---
+= Visão geral de importação de backups arquivados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A importação de dados do SnapManager para o SnapCenter permite que você continue a usar seus dados de versões anteriores. Você pode importar apenas os backups que foram arquivados usando a tecnologia SnapVault do SnapManager para o SnapCenter.
+
+O SnapCenter não suporta Data ONTAP operando no modo 7D. Você pode usar a ferramenta de transição de 7 modos para migrar dados e configurações que são armazenados em um sistema executando o Data ONTAP operando no modo 7 para um sistema ONTAP.

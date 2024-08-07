@@ -1,0 +1,64 @@
+---
+permalink: protect-scc/reference_prerequisites_to_adding_hosts_and_installing_snapcenter_custom_plug_ins.html 
+sidebar: sidebar 
+keywords: credentials 
+summary: Antes de adicionar um host e instalar os pacotes de plug-ins, você deve completar todos os requisitos. Os plug-ins personalizados podem ser usados em ambientes Windows e Linux. 
+---
+= Pré-requisitos para adicionar hosts e instalar plug-ins personalizados do SnapCenter
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Antes de adicionar um host e instalar os pacotes de plug-ins, você deve completar todos os requisitos. Os plug-ins personalizados podem ser usados em ambientes Windows e Linux.
+
+* Você deve ter criado um plug-in personalizado. Para obter detalhes, consulte as informações do desenvolvedor.
++
+link:concept_develop_a_plug_in_for_your_application.html["Desenvolva um plug-in para sua aplicação"]
+
+* Se você quiser gerenciar aplicativos MySQL ou DB2, você deve ter baixado os plug-ins personalizados MySQL e DB2 fornecidos pelo NetApp.
+* Você deve ter instalado o Java 1,8, 64 bits em seu host Linux ou Windows.
+* Ao instalar um plug-in em um host do Windows, se você especificar uma credencial que não está integrada ou se o usuário pertence a um usuário local do grupo de trabalho, será necessário desativar o UAC no host.
+* Os plug-ins personalizados devem estar disponíveis no host do cliente a partir do qual a operação de adição de host é executada.
+
+
+
+
+== Geral
+
+Se estiver a utilizar iSCSI, o serviço iSCSI tem de estar em execução.
+
+
+
+== Hosts do Windows
+
+* Você deve ter um usuário de domínio com Privileges de administrador local com permissões de login local no host remoto.
+* Se você gerenciar nós de cluster no SnapCenter, precisará ter um usuário com Privileges administrativo para todos os nós do cluster.
+
+
+
+
+== Hosts Linux
+
+* Você deve ter habilitado a conexão SSH baseada em senha para o usuário root ou não root.
+* Você deve ter instalado o Java 1,8 64-bit, em seu host Linux.
++
+Se você estiver usando o Windows 2019 ou o Windows 2016 para o host do servidor SnapCenter, instale o Java 1,8 de 64 bits. A ferramenta de Matriz de interoperabilidade (IMT) contém as informações mais recentes sobre os requisitos.
+
++
+http://www.java.com/en/download/manual.jsp["Downloads Java para todos os sistemas operacionais"]
+
++
+https://imt.netapp.com/matrix/imt.jsp?components=103047;&solution=1257&isHWU&src=IMT["Ferramenta de Matriz de interoperabilidade do NetApp"]
+
+* Você deve configurar o sudo Privileges para que o usuário não-root forneça acesso a vários caminhos. Adicione as seguintes linhas ao arquivo /etc/sudoers usando o utilitário visudo Linux. Por exemplo,
++
+[listing]
+----
+Cmnd_Alias SCCMD = /opt/NetApp/snapcenter/scc/bin/scc <non_root_user> ALL=(ALL) NOPASSWD:SETENV: SCCMD
+----
++
+non_root_user é o nome do usuário não-root que você criou.
+
+

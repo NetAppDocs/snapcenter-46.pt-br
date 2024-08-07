@@ -1,0 +1,58 @@
+---
+permalink: protect-scsql/task_import_archived_backups.html 
+sidebar: sidebar 
+keywords: SnapVault 
+summary: Você pode importar apenas os backups que foram arquivados usando a tecnologia SnapVault do SnapManager para o SnapCenter a partir da interface de linha de comando. 
+---
+= Importar backups arquivados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode importar apenas os backups que foram arquivados usando a tecnologia SnapVault do SnapManager para o SnapCenter a partir da interface de linha de comando.
+
+*O que você vai precisar*
+
+* O plug-in do SnapCenter para Microsoft SQL Server e o SnapManager para Microsoft SQL Server 7.x devem ser instalados no mesmo host.
+* Para suporte de cluster, o plug-in e o produto 7.x devem ter sido instalados em cada nó no cluster.
+* Você deve ter adicionado o host ou cluster ao SnapCenter e descoberto os recursos disponíveis para backup no host ou cluster.
+* Você deve ter feito backup da pasta SnapManager para SnapInfo do Microsoft SQL Server.
++
+Se a operação de importação falhar, você poderá recuperar os metadados de backup do diretório SnapInfo.
+
+
+
+|===
+
+
+ a| 
+*Prática recomendada:* é uma prática recomendada configurar a pasta de backup de log para o plug-in do SnapCenter para Microsoft SQL Server.
+
+|===
+Para obter informações sobre as tarefas de instalação e configuração do SnapCenter, consulte as informações de instalação do SnapCenter. Para obter informações sobre as tarefas de instalação e configuração do SnapManager para Microsoft SQL Server, consulte as informações de instalação do SnapManager.
+
+Depois que os backups arquivados tiverem sido importados para o SnapCenter do SnapManager para o Microsoft SQL Server, você poderá executar operações de restauração e clonagem nesses backups a partir do SnapCenter. Simultaneamente, você também pode continuar a executar operações de backup, restauração e clone usando o SnapManager para Microsoft SQL Server.
+
+*Passos*
+
+. Execute as etapas a seguir para criar agendas semelhantes às do SnapManager para agendamentos do Microsoft SQL Server manualmente no SnapCenter:
++
+.. Recupere as informações de agendamento do SnapManager para Microsoft SQL Server usando o `Get-SmSchedule` cmdlet.
+.. Guarde as informações da programação.
++
+Você pode usar essas informações de agendamento ao criar políticas no SnapCenter.
+
+.. Desative as programações do SnapManager para Microsoft SQL Server usando o `Get-SmSchedule -Hostname <hostname> -PluginCode SMSQL -DisableCurrentGenSchedule` cmdlet.
+
+
+. Importe backups arquivados usando o `Invoke-SmBackupMigration` cmdlet.
++
+Por exemplo, para migrar um host SQL autônomo:
+
++
+Por exemplo, para migrar o host de cluster:
+`Invoke-SmBackupMigration -Hostname <clustername> `-PluginCode SMSQL`
+
+

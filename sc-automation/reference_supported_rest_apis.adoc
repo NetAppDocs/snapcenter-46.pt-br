@@ -1,0 +1,220 @@
+---
+permalink: sc-automation/reference_supported_rest_apis.html 
+sidebar: sidebar 
+keywords: REST API categories 
+summary: Os recursos disponíveis por meio da API REST do SnapCenter são organizados em categorias, conforme exibido na página de documentação da API do SnapCenter. 
+---
+= APIs REST compatíveis com outros plug-ins
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os recursos disponíveis por meio da API REST do SnapCenter são organizados em categorias, conforme exibido na página de documentação da API do SnapCenter. Uma breve descrição de cada um dos recursos com os caminhos de recursos básicos é apresentada abaixo, juntamente com considerações de uso adicionais, quando apropriado.
+
+
+
+== Auth
+
+Você pode usar essa chamada de API para fazer login no servidor SnapCenter. Esta API retorna um token de autorização de usuário que é usado para autenticar solicitações subsequentes.
+
+
+
+== Domínios
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recupere todos os domínios
+* recuperar detalhes de um domínio específico
+* registrar ou cancelar o registro de um domínio
+* modificar um domínio
+
+
+
+
+== Trabalhos
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recupere todos os trabalhos
+* recuperar o status de um trabalho
+* cancelar ou parar um trabalho
+
+
+
+
+== Definições
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* registre, exiba, modifique ou remova uma credencial
+* configure as definições de notificação
+
+
+
+
+== Hosts
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar detalhes do host
+* recupere o plug-in instalado e seus detalhes de recursos
+* adicionar, remover ou modificar um host de plug-in
+* instale ou atualize plug-ins
+
+
+
+
+== Recursos
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar recursos
+* criar, modificar ou remover recursos
+* proteger um recurso
+* fazer backup, restaurar ou clonar um recurso
+
+
+
+
+== Backups
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar detalhes da cópia de segurança
+* renomear ou excluir backups
+
+
+
+
+== Clones
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar detalhes do clone
+* excluir clones
+
+
+
+
+== Clonesplit
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar o status de uma operação de divisão de clones
+* inicie ou pare uma operação de divisão de clones
+
+
+
+
+== Grupos de recursos
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar detalhes de um grupo de recursos
+* criar, modificar ou excluir um grupo de recursos
+* faça backup de um grupo de recursos
+
+
+
+
+== Políticas
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar detalhes da política
+* criar, modificar ou eliminar políticas
+
+
+
+
+== Armazenamento
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar detalhes de armazenamento
+* criar, modificar ou excluir um armazenamento
+* descubra recursos em um storage
+* crie ou exclua um compartilhamento no armazenamento
+
+
+
+
+== Partilhar
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar os detalhes de um compartilhamento
+* crie ou exclua um compartilhamento no armazenamento
+
+
+
+
+== Plugins
+
+Você pode usar essas chamadas de API para recuperar todos os plug-ins em um host e executar operações diferentes.
+
+
+
+== Relatórios
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* gerar relatórios de backup, restauração, clone e plug-in
+* adicionar, executar, excluir ou modificar programações
+
+
+
+
+== Alertas
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recuperar todos os alertas
+* eliminar alertas
+
+
+
+
+== RBAC
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* recupere detalhes de usuários, grupos e funções
+* adicionar utilizadores
+* criar, modificar ou excluir funções
+* atribuir ou anular a atribuição de funções e grupos
+
+
+
+
+== Configuração
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* ver as definições de configuração
+* modifique as definições de configuração
+
+
+
+
+== CertificateSettings
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* exibir o status do certificado
+* modifique as definições do certificado
+
+
+
+
+== Repositório
+
+Você pode usar essas chamadas de API para executar o seguinte:
+
+* Faça backup e restaure o repositório NSM
+* Proteger e desproteger o repositório NSM
+* failover
+* Reconstruir o repositório NSM
+

@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: legal-notices.html 
+keywords: copyrights, notice, trademarks, patents, privacy, open source 
+summary: Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais. 
+---
+= Avisos legais
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.
+
+
+
+== Direitos de autor
+
+http://www.netapp.com/us/legal/copyright.aspx["http://www.netapp.com/us/legal/copyright.aspx"]
+
+
+
+== Marcas comerciais
+
+NetApp, o logotipo DA NetApp e as marcas listadas na página de marcas comerciais da NetApp são marcas comerciais da NetApp, Inc. Outros nomes de produtos e empresas podem ser marcas comerciais de seus respetivos proprietários.
+
+http://www.netapp.com/us/legal/netapptmlist.aspx["http://www.netapp.com/us/legal/netapptmlist.aspx"]
+
+
+
+== Patentes
+
+Uma lista atual de patentes de propriedade da NetApp pode ser encontrada em:
+
+https://www.netapp.com/us/media/patents-page.pdf["https://www.netapp.com/us/media/patents-page.pdf"]
+
+
+
+== Política de privacidade
+
+https://www.netapp.com/us/legal/privacypolicy/index.aspx["https://www.netapp.com/us/legal/privacypolicy/index.aspx"]
+
+
+
+== Tradução de máquina
+
+Informações importantes sobre conteúdo localizado.
+
+https://www.netapp.com/company/legal/machine-translation/["https://www.netapp.com/company/legal/machine-translation/"]
+
+
+
+== Código aberto
+
+Fornece informações sobre direitos autorais de terceiros e licenças usadas neste produto. O seu produto não utiliza necessariamente todos os componentes de software referidos abaixo.
+
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2880727["Aviso para SnapCenter 4,6"^]
