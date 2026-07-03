@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: sc-automation/concept_basic_operational_characterstics.html 
+permalink: sc-automation/concept_basic_operational_characteristics.html 
 keywords: request and response, object identifiers, synchronous, asynchronous 
 summary: Embora O REST estabeleça um conjunto comum de tecnologias e práticas recomendadas, os detalhes de cada API podem variar com base nas escolhas de design. 
 ---

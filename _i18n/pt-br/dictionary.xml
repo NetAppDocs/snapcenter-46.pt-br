@@ -388,7 +388,6 @@
   <block id="6d2bf94f38d1fdf840fe9b231866899c" category="inline-link">Visão geral da implantação</block>
   <block id="95d04783b89b5d5f8a4c905e6a139950" category="paragraph">Para obter informações sobre como implantar,<block ref="09fdd78e4c4f2997a9baa6b6e4423d52" category="inline-link-rx"></block> consulte .</block>
   <block id="c9abc3786b4bb68c9d780c7e265731ff" category="inline-link">Criar ou importar certificado SSL</block>
-  <block id="77e6d176ef9b9d439f75a9636390005d" category="paragraph">Para configurar o certificado CA com o plug-in SnapCenter para VMware vSphere,<block ref="1b5e247395791063ff5d33fa4a1ba4ec" category="inline-link-rx"></block> consulte .</block>
   <block id="3228309100966454e78a162d4ba9bd75" category="section-title">Configure o arquivo CRL</block>
   <block id="456dce50d13fcf7c2c4881e39c114254" category="paragraph">O plug-in do SnapCenter para VMware vSphere procura os arquivos CRL em um diretório pré-configurado. O diretório padrão dos arquivos CRL para o plug-in do SnapCenter para VMware vSphere é _/opt/NetApp/config/crl_.</block>
   <block id="2794927004b00b8d766ca3deca4c7096" category="paragraph">Você pode monitorar o progresso de diferentes operações de backup usando a página SnapCenterJobs. Você pode querer verificar o progresso para determinar quando ele está concluído ou se há um problema.</block>
@@ -1126,7 +1125,6 @@
   <block id="41055e583e58ee1a92771580cdfe9b3f" category="list-text">Pacote de plug-ins do SnapCenter para AIX, que inclui os seguintes plug-ins:</block>
   <block id="f131ab7559cf49d32373fdff9b7cbaaa" category="admonition">O plug-in SnapCenter para UNIX não é um plug-in autônomo e não pode ser instalado de forma independente. Esse plug-in é instalado automaticamente quando você instala o plug-in do SnapCenter para o banco de dados Oracle.</block>
   <block id="ad41f7a9e85843a998743e132424a395" category="list-text">Plug-ins personalizados do SnapCenter</block>
-  <block id="b6ddf325474f53377de3e17f65c983f3" category="inline-link">Repositório de automação do storage da NetApp</block>
   <block id="4bfa416280fc4f5037348c904859e18f" category="paragraph">O plug-in do SnapCenter para VMware vSphere, antigo agente de dados da NetApp, é um dispositivo virtual autônomo que suporta operações de proteção de dados da SnapCenter em bancos de dados virtualizados e sistemas de arquivos.</block>
   <block id="2aa0571a478e7d0fecaba7f94c88bf25" category="section-title">Servidor SnapCenter</block>
   <block id="e4b70dc0a2377b7bbef832a55b2d603c" category="paragraph">O servidor SnapCenter inclui um servidor da Web, uma interface de usuário centralizada baseada em HTML5, cmdlets do PowerShell, APIs REST e o repositório SnapCenter.</block>
@@ -1607,8 +1605,6 @@
   <block id="b88dbedd8fcea13adf629d85780a25e4" category="list-text">O plug-in para Windows não suporta MPIO em máquinas virtuais em um cluster da Microsoft.</block>
   <block id="5010ac065b072d3a5a66d4913af22358" category="section-title">Crie um LUN FC RDM compartilhado</block>
   <block id="10680a7aa79949d8b454b29a782cc64a" category="paragraph">Antes de usar LUNs FC RDM para compartilhar o storage entre nós em um cluster da Microsoft, primeiro você deve criar o disco de quorum compartilhado e o disco de storage compartilhado e adicioná-los a ambas as máquinas virtuais no cluster.</block>
-  <block id="cbdb6828febec04786f22df9a1ccc748" category="inline-link">Cluster de máquinas virtuais em hosts físicos</block>
-  <block id="343e62dffb88999e9c503088341e1fc0" category="paragraph">O disco compartilhado não é criado usando o plug-in para Windows. Você deve criar e adicionar o LUN compartilhado a cada máquina virtual no cluster. Para obter informações,<block ref="4339506e2feb8115940eea5a6e9ba248" category="inline-link-rx"></block>consulte .</block>
   <block id="c939b5dd7dddc4f1908d7f58a2ab351d" category="summary">O SnapCenter requer várias licenças para habilitar operações de proteção de dados. O tipo de licenças do SnapCenter que você instala depende do ambiente de storage e dos recursos que deseja usar.</block>
   <block id="07cdb1cc7dcc527060e65d98659cb1d4" category="doc">Licenças SnapCenter</block>
   <block id="03d6fc6f0007d8c1e15a56f0a4522686" category="paragraph">O SnapCenter requer várias licenças para habilitar a proteção de dados de aplicativos, bancos de dados, sistemas de arquivos e máquinas virtuais. O tipo de licenças do SnapCenter que você instala depende do ambiente de storage e dos recursos que deseja usar.</block>
@@ -2705,23 +2701,14 @@
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legais</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Direitos de autor</block>
-  <block id="de6edae22bc37b97b38a15c7f8af62e2" category="inline-link"><block ref="de6edae22bc37b97b38a15c7f8af62e2" category="inline-link-rx"></block></block>
-  <block id="bb66384fc72d3c628df8a5f0f82af691" category="paragraph"><block ref="bb66384fc72d3c628df8a5f0f82af691" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciais</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, o logotipo DA NetApp e as marcas listadas na página de marcas comerciais da NetApp são marcas comerciais da NetApp, Inc. Outros nomes de produtos e empresas podem ser marcas comerciais de seus respetivos proprietários.</block>
-  <block id="a93bc0a57623c2facaa010825c808507" category="inline-link"><block ref="a93bc0a57623c2facaa010825c808507" category="inline-link-rx"></block></block>
-  <block id="e895a12067be0bbd74a4e8b2b0aa1151" category="paragraph"><block ref="e895a12067be0bbd74a4e8b2b0aa1151" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patentes</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Uma lista atual de patentes de propriedade da NetApp pode ser encontrada em:</block>
-  <block id="547ea2e305891e64d8e744949b0aca2c" category="inline-link"><block ref="547ea2e305891e64d8e744949b0aca2c" category="inline-link-rx"></block></block>
-  <block id="f48d97bbf0d920d837c970ab54fcbf14" category="paragraph"><block ref="f48d97bbf0d920d837c970ab54fcbf14" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidade</block>
-  <block id="50921fca0d376fca62102a5e608994e2" category="inline-link"><block ref="50921fca0d376fca62102a5e608994e2" category="inline-link-rx"></block></block>
-  <block id="3440f69304b6f0194e5502be93aede3f" category="paragraph"><block ref="3440f69304b6f0194e5502be93aede3f" category="inline-link-rx"></block></block>
   <block id="b4de17ead867a3cf0b9d11e57e562672" category="section-title">Tradução de máquina</block>
   <block id="19d4bd8b5bc76a91b74c1aa69ecea894" category="paragraph">Informações importantes sobre conteúdo localizado.</block>
   <block id="db9bfd81e26275c9db26e2db3ac172c3" category="inline-link"><block ref="db9bfd81e26275c9db26e2db3ac172c3" category="inline-link-rx"></block></block>
-  <block id="53028fa3036b4b4d8b4ba1c27bf5f0f8" category="paragraph"><block ref="53028fa3036b4b4d8b4ba1c27bf5f0f8" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
   <block id="0d06100a9c9a8a7758a0d58988e99d2f" category="paragraph">Fornece informações sobre direitos autorais de terceiros e licenças usadas neste produto. O seu produto não utiliza necessariamente todos os componentes de software referidos abaixo.</block>
   <block id="341b772831859beaa3c9f1cd40c3fdf7" category="inline-link">Aviso para SnapCenter 4,6</block>
@@ -3556,7 +3543,6 @@
   <block id="49ee0af5f7bb584f9569b5628fd1170e" category="paragraph">O NetApp fornece o plug-in de storage para executar operações de proteção de dados do volume de dados no storage ONTAP usando a estrutura de plug-in personalizada incorporada ao SnapCenter.</block>
   <block id="dd4b762c191c7a235ce898c094749679" category="paragraph">Você pode instalar o plug-in personalizado e o plug-in de armazenamento na página Adicionar host.</block>
   <block id="a5f00a79eb947021702cee9fc1d05354" category="paragraph"><block ref="a5f00a79eb947021702cee9fc1d05354" category="inline-link-macro-rx"></block></block>
-  <block id="56cb38ae9f515c555dfc8601fd4c0070" category="paragraph">O NetApp também fornece plug-ins personalizados MySQL, MAXDB, DB2, SYBASE, DPGLUE, MongoDB, ORASCPM e PostgreSQL. Esses plug-ins podem ser baixados do<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="022c56789408e44b04cf1944babfa527" category="admonition">A política de suporte do SnapCenter cobrirá o suporte para a estrutura de plug-in personalizada do SnapCenter, mecanismo central e as APIs associadas. O suporte não cobrirá o código-fonte do plug-in e os scripts associados criados na estrutura de plug-in personalizada.</block>
   <block id="4a7e6c3a47ec940f7e3059981cd146da" category="paragraph">Pode criar os seus próprios plug-ins personalizados consultando <block ref="9ef4188c6ecd9ed20479c22e2842115e" category="inline-link-macro-rx"></block>o .</block>
   <block id="f756f2ea5c5f2dba717e2d3dfdc37719" category="summary">Você pode usar os plug-ins personalizados do SnapCenter para operações de proteção de dados.</block>
@@ -3899,15 +3885,12 @@
   <block id="c1d36bef52fc074303f12c52de7b144f" category="list-text">Clique em *Upload*.</block>
   <block id="14c63a85dc0d2eb17d6a4de481e630f9" category="paragraph">O arquivo .xml do descritor na pasta de plug-in personalizado zipado é validado antes que o pacote seja carregado.</block>
   <block id="22b9c22ece0544103d4ef5fde3f3591c" category="paragraph">Os plug-ins personalizados que são carregados para o servidor SnapCenter são listados.</block>
-  <block id="00ebf5cec061915cd0462d73602dcad8" category="inline-link">Loja de automação da NetApp</block>
-  <block id="fa5ad2e8d730251bd90eea875f95091c" category="paragraph">Se você quiser gerenciar aplicativos MySQL ou DB2, você pode usar os plug-ins personalizados MySQL e DB2 fornecidos pelo NetApp. Os plug-ins personalizados MySQL e DB2 estão disponíveis no<block ref="480a3096e7d732b8f84f20e353e713fd" category="inline-link-rx"></block></block>
   <block id="ab443ca6692007d7b4d66d4e3044cbd8" category="paragraph">Se você não tiver selecionado a caixa de seleção *Ignorar pré-verificações*, o host será validado para verificar se o host atende aos requisitos para a instalação do plug-in. O espaço em disco, a RAM, a versão do PowerShell, a versão do .NET, a localização (para plug-ins do Windows) e a versão Java (para plug-ins do Linux) são validados de acordo com os requisitos mínimos. Se os requisitos mínimos não forem cumpridos, são apresentadas mensagens de erro ou de aviso adequadas.</block>
   <block id="48f5a315d78b006c306e66d7b35fa6f4" category="summary">Você deve adicionar os recursos que deseja fazer backup ou clonar. Dependendo do seu ambiente, os recursos podem ser instâncias de banco de dados ou coleções que você deseja fazer backup ou clonar.</block>
   <block id="5acceba2cee4fe40d121e90d997fa439" category="doc">Adicione recursos aos plug-ins personalizados do SnapCenter</block>
   <block id="04e793c2d8facdc933edd3335c890a34" category="list-text">Você deve ter concluído tarefas como instalar o servidor SnapCenter, adicionar hosts, criar conexões do sistema de storage e adicionar credenciais.</block>
   <block id="09f1a1e976c751f8b861a75492f30752" category="list-text">Você deve ter criado um plug-in personalizado.</block>
   <block id="797f1e031962d70e46335925184febf4" category="list-text">Você deve ter carregado os plug-ins para o servidor SnapCenter.</block>
-  <block id="eb609425665410a2e3cc5d5000880798" category="paragraph">Você também pode adicionar recursos para aplicativos MySQL e DB2. Esses plug-ins podem ser baixados do<block ref="14adb94a4faec9ea0e0992d90e98b640" category="inline-link-rx"></block>.</block>
   <block id="134848154c843b2b7ebbc0c3bf4c17a4" category="list-text">Na página recursos, clique em *Adicionar recurso*.</block>
   <block id="0750f05e0542388153777a63b5fa887c" category="paragraph">Introduza o nome do recurso.</block>
   <block id="d82b9729484cf5fd2948c596280e72fb" category="paragraph">Selecione o host.</block>
@@ -6319,8 +6302,6 @@
   <block id="a121a292ca8a39c5591cdcc69d0f0ff8" category="paragraph"><block ref="a121a292ca8a39c5591cdcc69d0f0ff8" category="inline-link-macro-rx"></block></block>
   <block id="024d2125c4de994f5780d700157a8f8a" category="inline-link-macro">Execute o ciclo de vida do clone</block>
   <block id="b5fb765366530fd4f75c7c5c651544bd" category="paragraph"><block ref="b5fb765366530fd4f75c7c5c651544bd" category="inline-link-macro-rx"></block></block>
-  <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link-macro">A operação de clone pode falhar ou levar mais tempo para ser concluída com o valor padrão TCP_TIMEOUT</block>
-  <block id="5f2b3d8994098e5cded686a40b8bb7c9" category="paragraph"><block ref="5f2b3d8994098e5cded686a40b8bb7c9" category="inline-link-macro-rx"></block></block>
   <block id="e120fc76fd23e12235b495bc6454901a" category="doc">ONTAP Privileges mínimo necessário para plug-in SQL</block>
   <block id="f9769cb6db4dd2d01611ef4c2e69e554" category="doc">Preparar sistemas de storage para replicação SnapMirror e SnapVault para plug-in para SQL Server</block>
   <block id="f9ba38b961aca7823da15b938828b64f" category="doc">Pré-requisitos para adicionar hosts e instalar o plug-in do SnapCenter para Microsoft SQL Server</block>
@@ -6460,11 +6441,7 @@
   <block id="1ca9ef3a64115b9b5155a63404740914" category="paragraph">Um grupo de recursos implícito é criado. Pode ver isto selecionando o respetivo utilizador ou grupo na página Acesso ao Utilizador. O tipo de grupo de recursos implícito é "recurso".</block>
   <block id="bd399fbf6546e1ea1b462c96e03932f3" category="inline-link-macro">Criar políticas de backup para bancos de dados do SQL Server</block>
   <block id="50e1edb21a598f492619b01f99e77a4f" category="paragraph"><block ref="50e1edb21a598f492619b01f99e77a4f" category="inline-link-macro-rx"></block></block>
-  <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">Operações de backup falha com erro de conexão MySQL devido ao atraso no TCP_TIMEOUT</block>
-  <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">A cópia de segurança falha com o erro do programador do Windows</block>
-  <block id="ee70f525f7b0b70b3e7de9d8f872cbe4" category="paragraph"><block ref="ee70f525f7b0b70b3e7de9d8f872cbe4" category="inline-link-rx"></block></block>
-  <block id="393997bd3b722d52ae03ce598aa5cfec" category="paragraph"><block ref="393997bd3b722d52ae03ce598aa5cfec" category="inline-link-rx"></block></block>
   <block id="2414432c60e82c4bed04be0e4dafda65" category="doc">Fazer backup de grupos de recursos do SQL Server</block>
   <block id="d8a3458cd303d8d6a9529b6dbba62424" category="list-text">Após o backup, selecione *Verify* para verificar o backup sob demanda.</block>
   <block id="8e927494c3186b26a3de09d9578e731f" category="paragraph">A opção *Verify* na política aplica-se apenas a trabalhos agendados.</block>
@@ -6519,9 +6496,7 @@
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">Faça backup do banco de dados do SQL Server, instância ou grupo de disponibilidade</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
   <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
-  <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">O clone do banco de dados de instância do cluster de failover falha</block>
-  <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="d46bdc3a4fe241badafb83ade1e31452" category="summary">Você pode configurar credenciais para executar tarefas de proteção de dados em recursos individuais do SQL Server para cada usuário.</block>
   <block id="78cb0d244e4320583b51cc8da36e130e" category="doc">Configurar credenciais para um recurso do SQL Server individual</block>
   <block id="82ebbd4916aa80b290bf59524e5e173b" category="paragraph">Você pode configurar credenciais para executar tarefas de proteção de dados em recursos individuais do SQL Server para cada usuário. Embora você possa configurar as credenciais globalmente, talvez você queira fazer isso apenas para um recurso específico.</block>
@@ -7562,7 +7537,6 @@
   <block id="06b047d338ab216568f24797a92a475a" category="list-text">Você deve ter atribuído o usuário RBAC à função RBAC.</block>
   <block id="4fcc15e06159b8ced3ec8f0100fa1a04" category="list-text">Você deve ter atribuído o usuário RBAC ao host, ao plug-in do SnapCenter para Microsoft SQL Server, às credenciais, ao grupo de recursos do ciclo de vida de clone e ao sistema de storage.</block>
   <block id="92d37724657724129ae0451584c728aa" category="inline-link">Remova o plug-in do SnapCenter para VMware vSphere</block>
-  <block id="00b3864f3eb01692ecdfe4f18c19971c" category="paragraph">Para obter informações sobre como desinstalar o plug-in do SnapCenter para VMware vSphere,<block ref="17b687e0a579b9f5223d3c7119027217" category="inline-link-rx"></block> consulte .</block>
   <block id="087af862ce66495658dd0b639b76b8e8" category="summary">Quando o servidor SnapCenter remove um host, ele primeiro remove o backup, clones, tarefas de clone, grupos de recursos e recursos listados para esse host na página recursos do SnapCenter e, em seguida, desinstala os pacotes de plug-in no host.</block>
   <block id="2425983d8196e314ffb29c49e451ba2e" category="doc">Remova um host</block>
   <block id="0e570ad9ab7ac1b3c7dc15f4343d8161" category="list-text">Se você excluir um host, os backups, clones e grupos de recursos associados ao host também serão excluídos.</block>
@@ -7801,4 +7775,24 @@
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">Para obter mais informações, consulte o<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block> vídeo.</block>
   <block id="34d41de6bbbd59c588068d1c2b2e073d" category="paragraph">Você também pode implantar o certificado CA para o plug-in SnapCenter para VMware vSphere. Para obter mais informações, consulte <block ref="bdfc8d677279c2d2dc7a5041c41cc2d9" category="inline-link-rx"></block> .</block>
   <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
+  <block id="92f7e9adcc0061bde4c2abd78f00e01e" category="paragraph">Para configurar o certificado CA com o SnapCenter Plug-in for VMware vSphere, consulte <block ref="e0ef04da7ad7ee6e29cb49ed5497582e" category="inline-link-rx"></block>.</block>
+  <block id="1e70ac4737c2e839c6fd901789e3bafb" category="paragraph">O disco compartilhado não é criado usando o Plug-in for Windows. Você deve criar e, em seguida, adicionar o LUN compartilhado a cada máquina virtual no cluster.</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="section-title">Informações relacionadas</block>
+  <block id="ae0aa1a81eb18e69d5fc662eaee0efd5" category="inline-link">Documentação técnica Broadcom</block>
+  <block id="e3b8e6a8b23425a59add498ed0e47659" category="paragraph">Consulte <block ref="94f03a61d7283013b50d8cc8e88c9fd8" category="inline-link-rx"></block> e pesquise a documentação sobre clustering de máquinas virtuais em hosts físicos e criação de LUNs FC RDM compartilhadas para clusters Microsoft.</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a5e2857bcbb24beb61afacbeb1096de4" category="paragraph"><block ref="a5e2857bcbb24beb61afacbeb1096de4" category="inline-link-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="78aa1e0fed76ce2fb3ad8dbadc39597f" category="paragraph"><block ref="78aa1e0fed76ce2fb3ad8dbadc39597f" category="inline-link-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="0e1f903c24e742b2c05ca97512d816a8" category="paragraph"><block ref="0e1f903c24e742b2c05ca97512d816a8" category="inline-link-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="66011001e458ee6a7572488743ab37f6" category="paragraph"><block ref="66011001e458ee6a7572488743ab37f6" category="inline-link-rx"></block></block>
+  <block id="5027ef7cc504e9bcee4f891f9e56ef89" category="paragraph"><block ref="5027ef7cc504e9bcee4f891f9e56ef89" category="inline-link-rx"></block></block>
+  <block id="6b77b088a166c6def22b47133c882582" category="paragraph">NetApp também fornece plug-ins personalizados para MySQL, MAXDB, DB2, SYBASE, DPGLUE, MongoDB, ORASCPM e PostgreSQL.</block>
+  <block id="9ef736e00e9830a4ee825444862d9685" category="paragraph">Se você deseja gerenciar aplicativos MySQL ou DB2, pode usar os plug-ins personalizados MySQL e DB2 fornecidos por NetApp.</block>
+  <block id="fb322b1c90de9bc9209933a55dc7c3a1" category="paragraph"><block ref="fb322b1c90de9bc9209933a55dc7c3a1" category="inline-link-rx"></block></block>
+  <block id="76d78c694f90915981830809ea4ed0ea" category="paragraph"><block ref="76d78c694f90915981830809ea4ed0ea" category="inline-link-rx"></block></block>
+  <block id="654bb6446b6bf43b65f5a763bbc17afe" category="paragraph"><block ref="654bb6446b6bf43b65f5a763bbc17afe" category="inline-link-rx"></block></block>
+  <block id="79cfb9f00fa8ea603f631e679e453fad" category="paragraph">Para obter informações sobre como desinstalar o SnapCenter Plug-in para VMware vSphere, consulte <block ref="cae8a6db54fa4da6d80207fee61e78d1" category="inline-link-rx"></block>.</block>
 </blocks>

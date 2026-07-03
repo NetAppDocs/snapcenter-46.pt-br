@@ -12,7 +12,7 @@ entries:
     url: "/protect-sco/reference_storage_types_supported_by_snapcenter_plug_in_for_oracle_database.html"
   - title: Preparar sistemas de storage para replicação SnapMirror e SnapVault para
       plug-in para Oracle
-    url: "/protect-sco/reference_prepare_storage_systems_for_snapmirror_and_snapvault_replication_for_plugin_for_oracle.html"
+    url: "/protect-sco/reference_prepare_storage_systems_for_snapmirror_and_snapvault_replication_for_plug-in_for_oracle.html"
   - title: Mínimo de ONTAP Privileges necessário para plug-in para Oracle
     url: "/protect-sco/reference_minimum_ontap_privileges_required_for_oracle_plug_in.html"
 - title: Instale o plug-in do SnapCenter para o banco de dados Oracle

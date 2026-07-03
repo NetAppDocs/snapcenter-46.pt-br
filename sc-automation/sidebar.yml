@@ -9,7 +9,7 @@ entries:
 - title: Base de serviços web REST
   url: "/sc-automation/concept_rest_web_services_foundation.html"
 - title: Caraterísticas operacionais básicas
-  url: "/sc-automation/concept_basic_operational_characterstics.html"
+  url: "/sc-automation/concept_basic_operational_characteristics.html"
 - title: Variáveis de entrada que controlam uma solicitação de API
   url: "/sc-automation/concept_input_variables_controlling_an_api_request.html"
 - title: Interpretação de uma resposta API
@@ -19,7 +19,7 @@ entries:
   - title: Workflows de API REST compatíveis com outros plug-ins
     url: "/sc-automation/reference_supported_rest_apis.html"
   - title: APIs REST compatíveis com Oracle Database
-    url: "/sc-automation/refrence_rest_apis_supported_for_oracle_database.html"
+    url: "/sc-automation/reference_rest_apis_supported_for_oracle_database.html"
   - title: API REST compatível com recuperação de desastres do servidor SnapCenter
     url: "/sc-automation/rest_api_workflows_disaster_recovery_of_snapcenter_server.html"
 - title: Como acessar APIs REST usando a página da Web da API Swagger

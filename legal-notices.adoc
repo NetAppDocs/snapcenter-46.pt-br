@@ -19,7 +19,7 @@ Avisos legais fornecem acesso a declarações de direitos autorais, marcas regis
 
 == Direitos de autor
 
-http://www.netapp.com/us/legal/copyright.aspx["http://www.netapp.com/us/legal/copyright.aspx"]
+https://www.netapp.com/company/legal/copyright/["https://www.netapp.com/company/legal/copyright/"^]
 
 
 
@@ -27,7 +27,7 @@ http://www.netapp.com/us/legal/copyright.aspx["http://www.netapp.com/us/legal/co
 
 NetApp, o logotipo DA NetApp e as marcas listadas na página de marcas comerciais da NetApp são marcas comerciais da NetApp, Inc. Outros nomes de produtos e empresas podem ser marcas comerciais de seus respetivos proprietários.
 
-http://www.netapp.com/us/legal/netapptmlist.aspx["http://www.netapp.com/us/legal/netapptmlist.aspx"]
+https://www.netapp.com/company/legal/trademarks/["https://www.netapp.com/company/legal/trademarks/"^]
 
 
 
@@ -35,13 +35,13 @@ http://www.netapp.com/us/legal/netapptmlist.aspx["http://www.netapp.com/us/legal
 
 Uma lista atual de patentes de propriedade da NetApp pode ser encontrada em:
 
-https://www.netapp.com/us/media/patents-page.pdf["https://www.netapp.com/us/media/patents-page.pdf"]
+https://www.netapp.com/pdf.html?item=/media/11887-patentspage.pdf["https://www.netapp.com/pdf.html?item=/media/11887-patentspage.pdf"^]
 
 
 
 == Política de privacidade
 
-https://www.netapp.com/us/legal/privacypolicy/index.aspx["https://www.netapp.com/us/legal/privacypolicy/index.aspx"]
+https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.com/company/legal/privacy-policy/"^]
 
 
 
@@ -49,7 +49,7 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx["https://www.netapp.com
 
 Informações importantes sobre conteúdo localizado.
 
-https://www.netapp.com/company/legal/machine-translation/["https://www.netapp.com/company/legal/machine-translation/"]
+https://www.netapp.com/company/legal/machine-translation/["https://www.netapp.com/company/legal/machine-translation/"^]
 
 
 

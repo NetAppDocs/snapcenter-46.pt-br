@@ -1,5 +1,5 @@
 ---
-permalink: sc-automation/refrence_rest_apis_supported_for_oracle_database.html 
+permalink: sc-automation/reference_rest_apis_supported_for_oracle_database.html 
 sidebar: sidebar 
 keywords: REST APIs, oracle database 
 summary: Descreve os fluxos de trabalho de APIs REST compatíveis com o banco de dados Oracle 
