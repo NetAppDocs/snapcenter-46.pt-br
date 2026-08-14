@@ -19,6 +19,7 @@ image::../media/upgrade_workflow.png[atualizar fluxo de trabalho]
 
 
 
+[[supported-upgrade-paths]]
 == Caminhos de atualização suportados
 
 |===
@@ -60,9 +61,22 @@ image::../media/upgrade_workflow.png[atualizar fluxo de trabalho]
 * 4.6.x
 
 
+
+
+ a| 
+4.6.x
+ a| 
+4,7
+ a| 
+* 4.6.x
+* 4,7
+
+
 |===
+[NOTE]
+====
+* O SnapCenter suporta atualizações diretas apenas pelos caminhos mostrados na tabela acima. Se você precisar atualizar para uma versão que não seja diretamente suportada a partir da sua versão atual, você deve realizar uma série de atualizações incrementais. Por exemplo, se você estiver na versão 4.3.x do SnapCenter e quiser atualizar para a 4.6.x, primeiro deve atualizar para a 4.5.x e, em seguida, realizar uma atualização progressiva para a 4.6.x. Essa abordagem garante a compatibilidade entre as versões e evita problemas que podem ocorrer ao pular versões intermediárias. Sempre verifique o caminho de atualização suportado na tabela antes de iniciar sua atualização.
+* Para obter informações sobre como atualizar o SnapCenter Plug-in para VMware vSphere, consulte link:https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/scpivs44_upgrade.html["Atualize o plug-in do SnapCenter para o VMware vSphere"^]
 
-IMPORTANT: Por exemplo, se você estiver no SnapCenter versão 4,3.x e quiser atualizar para 4,6.x, primeiro você deve atualizar para 4,5.x e, em seguida, fazer uma atualização contínua para 4,6.x.
 
-
-NOTE: Para obter informações sobre como atualizar o plug-in do SnapCenter para VMware vSphere, https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/scpivs44_upgrade.html["Atualize o plug-in do SnapCenter para o VMware vSphere"^] consulte .
+====

@@ -28,6 +28,7 @@ NOTE: O IBM Java não é suportado.
 
 
 
+[[windows-hosts]]
 == Hosts do Windows
 
 * Você deve ter um usuário de domínio com Privileges de administrador local com permissões de login local no host remoto.
@@ -44,6 +45,7 @@ https://imt.netapp.com/matrix/imt.jsp?components=103047;&solution=1257&isHWU&src
 
 
 
+[[linux-hosts]]
 == Hosts Linux
 
 * Você deve ter habilitado a conexão SSH baseada em senha para o usuário root ou não root.

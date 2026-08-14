@@ -27,12 +27,14 @@ Por exemplo, um usuário com a função Administrador do SnapCenter pode criar c
 
 
 
+[[snapcenter-admin-role]]
 == Função de administrador do SnapCenter
 
 A função de administrador do SnapCenter tem todas as permissões ativadas. Não é possível modificar as permissões para esta função. Você pode adicionar usuários e grupos à função ou removê-los.
 
 
 
+[[app-backup-and-clone-admin-role]]
 == Função de Administrador de cópia de Segurança e Clonagem de aplicações
 
 A função App Backup and Clone Admin tem as permissões necessárias para executar ações administrativas para backups de aplicativos e tarefas relacionadas a clones. Essa função não tem permissões para gerenciamento de host, provisionamento, gerenciamento de conexão de storage ou instalação remota.
@@ -296,6 +298,7 @@ Não aplicável
 |===
 
 
+[[backup-and-clone-viewer-role]]
 == Função Visualizador de cópia de Segurança e Clonagem
 
 A função Visualizador de cópia de Segurança e Clonagem tem uma vista só de leitura de todas as permissões. Essa função também tem permissões habilitadas para descoberta, geração de relatórios e acesso ao Dashboard.
@@ -560,6 +563,7 @@ Não aplicável
 |===
 
 
+[[infrastructure-admin-role]]
 == Função de administrador de infraestrutura
 
 A função Administrador de infraestrutura tem permissões habilitadas para gerenciamento de host, gerenciamento de storage, provisionamento, grupos de recursos, relatórios de instalação remota e acesso ao Dashboard.

@@ -32,10 +32,12 @@ As operações disponíveis são
 
 
 
+[[general-plug-in-handling]]
 == Manuseamento geral do plug-in
 
 
 
+[[using-results-object]]
 === Usando o objeto resultados
 
 Cada operação de plug-in personalizada deve definir o objeto resultados. Esse objeto envia mensagens, código de saída, stdout e stderr de volta ao agente host.
@@ -54,6 +56,7 @@ Retornando o objeto resultados:
  return $result;
 
 
+[[preserving-data-consistency]]
 === Preservar a consistência dos dados
 
 É possível preservar dados entre operações (exceto limpeza) como parte da mesma execução do fluxo de trabalho. Isso é feito usando pares chave-valor. Os pares de dados de valor-chave são definidos como parte do objeto de resultado e são retidos e disponíveis nas operações subsequentes do mesmo fluxo de trabalho.
@@ -103,6 +106,7 @@ Aplicar mensagens ao objeto resultados:
  $result->{message} = \@message_a;
 
 
+[[using-plug-in-stubs]]
 === Usando stubs plug-in
 
 Plug-ins personalizados devem expor stubs de plug-in. Estes são métodos que o servidor SnapCenter chama, com base em um fluxo de trabalho.
@@ -232,6 +236,7 @@ Este esboço é usado pelo SnapCenter para obter detalhes da versão do aplicati
 |===
 
 
+[[plug-in-package-information]]
 === Informações sobre o pacote de plug-in
 
 Cada plug-in deve ter as seguintes informações:
@@ -258,6 +263,7 @@ my %config_h = ();
 ....
 
 
+[[operations]]
 === Operações
 
 Você pode codificar várias operações como setenv, Version, quiesce e Unquiesce, que são suportadas pelos plug-ins personalizados.

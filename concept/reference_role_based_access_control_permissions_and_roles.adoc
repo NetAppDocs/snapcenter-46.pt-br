@@ -15,6 +15,7 @@ O controle de acesso baseado em função (RBAC) do SnapCenter permite criar fun�
 
 
 
+[[snapcenter-roles]]
 == Funções do SnapCenter
 
 O SnapCenter é fornecido com as seguintes funções predefinidas. Você pode atribuir usuários e grupos a essas funções ou criar novas funções.
@@ -29,6 +30,7 @@ Quando você atribui uma função a um usuário, somente os trabalhos relevantes
 
 
 
+[[snapcenter-plug-in-for-vmware-vsphere-roles]]
 == Plug-in do SnapCenter para funções do VMware vSphere
 
 Para gerenciar a proteção de dados consistente com VM de VMs, VMDKs e armazenamentos de dados, as funções a seguir são criadas no vCenter pelo plug-in do SnapCenter para VMware vSphere:
@@ -49,6 +51,7 @@ Para obter mais informações, consulte https://docs.netapp.com/us-en/sc-plugin-
 |===
 
 
+[[snapcenter-permissions]]
 == Permissões do SnapCenter
 
 O SnapCenter fornece as seguintes permissões:

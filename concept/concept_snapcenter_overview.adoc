@@ -97,6 +97,7 @@ Você pode recuperar o servidor SnapCenter em caso de desastres como corrupção
 
 
 
+[[snapcenter-architecture]]
 == Arquitetura da SnapCenter
 
 A plataforma SnapCenter é baseada em uma arquitetura de vários níveis que inclui um servidor de gerenciamento centralizado (servidor SnapCenter) e um host de plug-in SnapCenter.
@@ -107,6 +108,7 @@ image::../media/snapcenter_architecture.gif[arquitetura da SnapCenter]
 
 
 
+[[snapcenter-components]]
 == Componentes do SnapCenter
 
 O SnapCenter consiste nos plug-ins do servidor SnapCenter e do SnapCenter. Você deve instalar apenas os plug-ins apropriados para os dados que deseja proteger.
@@ -148,6 +150,7 @@ O plug-in do SnapCenter para VMware vSphere, antigo agente de dados da NetApp, �
 
 
 
+[[snapcenter-server]]
 == Servidor SnapCenter
 
 O servidor SnapCenter inclui um servidor da Web, uma interface de usuário centralizada baseada em HTML5, cmdlets do PowerShell, APIs REST e o repositório SnapCenter.
@@ -172,6 +175,7 @@ As informações sobre as operações do SnapCenter são armazenadas no reposit�
 
 
 
+[[snapcenter-plug-ins]]
 == Plug-ins do SnapCenter
 
 Cada plug-in do SnapCenter é compatível com ambientes, bancos de dados e aplicações específicos.
@@ -262,6 +266,7 @@ Para usuários do SnapCenter 4.1.1, a documentação do plug-in do SnapCenter pa
 
 
 
+[[snapcenter-plug-in-for-microsoft-sql-server-features]]
 === Plug-in do SnapCenter para recursos do Microsoft SQL Server
 
 * Automatiza operações de backup, restauração e clone com reconhecimento de aplicações para bancos de dados Microsoft SQL Server em seu ambiente SnapCenter.
@@ -272,6 +277,7 @@ Para usuários do SnapCenter 4.1.1, a documentação do plug-in do SnapCenter pa
 
 
 
+[[snapcenter-plug-in-for-microsoft-windows-features]]
 === Plug-in do SnapCenter para recursos do Microsoft Windows
 
 * Habilita a proteção de dados com reconhecimento de aplicativos para outros plug-ins que estão sendo executados em hosts do Windows em seu ambiente SnapCenter
@@ -285,6 +291,7 @@ NOTE: O Plug-in para Windows provisiona compartilhamentos SMB e sistemas de arqu
 
 
 
+[[snapcenter-plug-in-for-microsoft-exchange-server-features]]
 === Plug-in do SnapCenter para recursos do Microsoft Exchange Server
 
 * Automatiza as operações de backup e restauração com reconhecimento de aplicativos para bancos de dados do Microsoft Exchange Server e grupos de disponibilidade de banco de dados (DAGs) em seu ambiente SnapCenter
@@ -293,6 +300,7 @@ NOTE: O Plug-in para Windows provisiona compartilhamentos SMB e sistemas de arqu
 
 
 
+[[snapcenter-plug-in-for-oracle-database-features]]
 === Plug-in do SnapCenter para recursos de banco de dados Oracle
 
 * Automatiza operações de backup, restauração, recuperação, verificação, montagem, desmontagem e clone com reconhecimento de aplicações para bancos de dados Oracle em seu ambiente SnapCenter
@@ -301,6 +309,7 @@ NOTE: O Plug-in para Windows provisiona compartilhamentos SMB e sistemas de arqu
 
 
 
+[[snapcenter-plug-in-for-unix-features]]
 === Plug-in do SnapCenter para recursos UNIX
 
 * Permite que o Plug-in para Oracle Database execute operações de proteção de dados em bancos de dados Oracle, manipulando a pilha de armazenamento de host subjacente em sistemas Linux ou AIX
@@ -315,6 +324,7 @@ Dispositivos nativos SAN, sistemas de arquivos e layouts LVM criados em disposit
 
 
 
+[[snapcenter-plug-in-for-sap-hana-database-features]]
 === Plug-in do SnapCenter para recursos de banco de dados SAP HANA
 
 * Automatiza o backup, a restauração e a clonagem com reconhecimento de aplicações de bancos de dados SAP HANA em seu ambiente SnapCenter
@@ -322,6 +332,7 @@ Dispositivos nativos SAN, sistemas de arquivos e layouts LVM criados em disposit
 
 
 
+[[snapcenter-custom-plug-ins-features]]
 === Recursos de plug-ins personalizados do SnapCenter
 
 * Oferece suporte a plug-ins personalizados para gerenciar aplicativos ou bancos de dados que não são compatíveis com outros plug-ins do SnapCenter. Plug-ins personalizados não são fornecidos como parte da instalação do SnapCenter.
@@ -338,6 +349,7 @@ Para obter mais informações, consulte link:../protect-scc/concept_develop_a_pl
 
 
 
+[[snapcenter-repository]]
 == Repositório SnapCenter
 
 O repositório do SnapCenter, às vezes chamado de banco de dados NSM, armazena informações e metadados para cada operação do SnapCenter.

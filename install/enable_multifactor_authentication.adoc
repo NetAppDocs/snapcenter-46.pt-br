@@ -123,6 +123,7 @@ Para obter informações sobre solução de problemas, https://kb.netapp.com/mgm
 
 
 
+[[update-ad-fs-mfa-metadata]]
 == Atualizar metadados MFA do AD FS
 
 Você deve atualizar os metadados MFA do AD FS no SnapCenter sempre que houver qualquer modificação no servidor AD FS, como atualização, renovação de certificado da CA, DR, etc.
@@ -143,6 +144,7 @@ Depois de ativar, atualizar ou desativar as configurações de MFA no SnapCenter
 
 
 
+[[update-snapcenter-mfa-metadata]]
 == Atualizar os metadados do SnapCenter MFA
 
 Você deve atualizar os metadados do SnapCenter MFA no AD FS sempre que houver qualquer modificação no servidor ADFS, como reparo, renovação de certificado da CA, DR, etc.
@@ -170,6 +172,7 @@ Depois de ativar, atualizar ou desativar as configurações de MFA no SnapCenter
 
 
 
+[[disable-multi-factor-authentication-mfa]]
 == Desativar a autenticação multifator (MFA)
 
 Desative o MFA e limpe os arquivos de configuração que foram criados quando o MFA foi habilitado usando o cmdlet _Set-SmMultiFactorAuthentication -Disable_.

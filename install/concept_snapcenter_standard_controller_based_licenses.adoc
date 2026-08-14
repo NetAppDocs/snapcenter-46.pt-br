@@ -29,12 +29,14 @@ Para obter informações sobre as licenças necessárias, link:../install/concep
 
 
 
+[[prerequisites-to-add-controller-based-license]]
 == Pré-requisitos para adicionar licença baseada no controlador
 
 Antes de adicionar uma licença baseada no controlador, você deve verificar se a licença do SnapManager Suite está instalada, identificar as licenças instaladas no controlador, recuperar o número de série do controlador e recuperar o número de série da licença baseada no controlador.
 
 
 
+[[verify-if-the-snapmanager-suite-license-is-installed]]
 === Verifique se a licença do SnapManager Suite está instalada
 
 Você pode usar a GUI do SnapCenter para ver se uma licença do SnapManager Suite está instalada em sistemas de storage primário FAS ou AFF e identificar quais sistemas de storage podem exigir licenças do SnapManager Suite. As licenças do SnapManager Suite se aplicam somente a SVMs ou clusters do FAS e AFF em sistemas de storage primário.
@@ -68,6 +70,7 @@ A coluna Licença do controlador exibe o seguinte status:
 
 
 
+[[identify-the-licenses-installed-on-the-controller]]
 === Identificar as licenças instaladas no controlador
 
 Você pode usar a linha de comando ONTAP para visualizar todas as licenças instaladas no seu controlador. Você deve ser um administrador de cluster no sistema FAS ou AFF.
@@ -112,6 +115,7 @@ No exemplo, a licença SnapManagerSuite é instalada, portanto, nenhuma ação a
 
 
 
+[[retrieve-the-controller-serial-number]]
 === Recupere o número de série do controlador
 
 Você precisa ter o número de série do controlador para recuperar o número de série da sua licença baseada no controlador. Você pode recuperar o número de série do controlador usando a linha de comando ONTAP. Você deve ser um administrador de cluster no sistema FAS ou AFF.
@@ -161,6 +165,7 @@ All-Flash Optimized: false
 
 
 
+[[retrieve-the-serial-number-of-the-controller-based-license]]
 === Recupere o número de série da licença baseada no controlador
 
 Se você estiver usando o armazenamento FAS ou AFF, poderá recuperar a licença baseada no controlador SnapCenter do site de suporte da NetApp antes de instalá-la usando a linha de comando ONTAP.
@@ -190,6 +195,7 @@ image::../media/nss_controller_license_select.gif[seleção da licença do contr
 
 
 
+[[add-controller-based-license]]
 == Adicione licença baseada em controladora
 
 Você pode usar a linha de comando ONTAP para adicionar uma licença baseada em controladora SnapCenter quando estiver usando sistemas FAS ou AFF e tiver uma licença padrão ou SnapManagerSuite SnapCenter.
@@ -224,6 +230,7 @@ Este comando está disponível no nível de privilégios de administrador.
 
 
 
+[[remove-the-trial-license]]
 === Remova a licença de teste
 
 Se você estiver usando uma licença padrão SnapCenter baseada em controlador e precisar remover a licença de avaliação baseada em capacidade (número de série que termina com "'50""), você deve usar os comandos MySQL para remover a licença de teste manualmente. A licença de teste não pode ser excluída usando a GUI do SnapCenter.

@@ -30,6 +30,7 @@ O SnapCenter inclui os seguintes recursos de segurança:
 
 
 
+[[ca-certificate-overview]]
 == Visão geral do certificado CA
 
 O instalador do servidor SnapCenter permite o suporte centralizado de certificados SSL durante a instalação. Para melhorar a comunicação segura entre o servidor e o plug-in, o SnapCenter suporta o uso dos certificados de CA autorizados fornecidos pelo cliente.

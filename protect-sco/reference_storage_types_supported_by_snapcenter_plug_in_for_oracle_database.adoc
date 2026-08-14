@@ -17,6 +17,7 @@ O SnapCenter não oferece suporte ao provisionamento de storage para Linux e AIX
 
 
 
+[[storage-types-supported-on-linux]]
 == Tipos de armazenamento compatíveis com Linux
 
 A tabela a seguir lista os tipos de armazenamento suportados no Linux.
@@ -50,6 +51,7 @@ Você pode editar o arquivo *LinuxConfig.pm* localizado em _/opt/NetApp/SnapCent
 |===
 
 
+[[storage-types-supported-on-aix]]
 == Tipos de storage compatíveis com AIX
 
 A tabela a seguir lista os tipos de armazenamento suportados no AIX.

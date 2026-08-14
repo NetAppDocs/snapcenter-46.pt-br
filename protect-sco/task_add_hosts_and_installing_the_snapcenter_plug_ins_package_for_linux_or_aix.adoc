@@ -159,6 +159,7 @@ Todos os bancos de dados no host são automaticamente descobertos e exibidos na 
 
 
 
+[[monitor-installation-status]]
 == Monitorar o status da instalação
 
 Pode monitorizar o progresso da instalação do pacote de plug-ins do SnapCenter utilizando a página trabalhos. Você pode querer verificar o andamento da instalação para determinar quando ela está concluída ou se há um problema.

@@ -33,6 +33,7 @@ Você pode adicionar vários sistemas de storage.
 
 
 
+[[modify-application-volume]]
 == Modificar o volume da aplicação
 
 Você pode modificar todos os valores especificados ao adicionar o volume do aplicativo, se não forem criados backups. Se o backup for criado, você só poderá modificar os detalhes do sistema de armazenamento.
@@ -46,6 +47,7 @@ Você pode modificar todos os valores especificados ao adicionar o volume do apl
 
 
 
+[[delete-application-volume]]
 == Eliminar volume da aplicação
 
 Quando você exclui um volume de aplicativo, se houver backups associados ao volume do aplicativo, o volume do aplicativo será colocado em modo de manutenção e nenhum novo backup será criado e nenhum backup anterior será retido. Se não houver backups associados, todos os metadados serão excluídos.

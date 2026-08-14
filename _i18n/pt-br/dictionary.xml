@@ -7664,9 +7664,7 @@
   <block id="fef826a349ca99b933042ba1dfa73260" category="cell">4.4.x</block>
   <block id="4b1f6cbbab8f5d76a3e1d1b2c562722e" category="cell">4.5.x</block>
   <block id="955d0e9747f65e6a6a1963edce3fa678" category="cell">4.6.x</block>
-  <block id="9039ba0f0b3a3b38ef80aa48945fa3c0" category="admonition">Por exemplo, se você estiver no SnapCenter versão 4,3.x e quiser atualizar para 4,6.x, primeiro você deve atualizar para 4,5.x e, em seguida, fazer uma atualização contínua para 4,6.x.</block>
   <block id="dd9f485e72f96875e028693823f26e70" category="inline-link">Atualize o plug-in do SnapCenter para o VMware vSphere</block>
-  <block id="25878f69131b31b18aeda7ba36139c1b" category="admonition">Para obter informações sobre como atualizar o plug-in do SnapCenter para VMware vSphere,<block ref="9fa07c2f7a59d2185d48077e327b705e" category="inline-link-rx"></block> consulte .</block>
   <block id="6658143d8d013b5088fd214f730f807c" category="sidebar">Documentação do software SnapCenter 4,6</block>
   <block id="b3121ceac9c3b1c097a1f53db3eff2a7" category="sidebar">Gerencie o servidor SnapCenter e os plug-ins</block>
   <block id="fea84990764109b117844dae6e7232a7" category="sidebar">Visualização do painel</block>
@@ -7795,4 +7793,7 @@
   <block id="76d78c694f90915981830809ea4ed0ea" category="paragraph"><block ref="76d78c694f90915981830809ea4ed0ea" category="inline-link-rx"></block></block>
   <block id="654bb6446b6bf43b65f5a763bbc17afe" category="paragraph"><block ref="654bb6446b6bf43b65f5a763bbc17afe" category="inline-link-rx"></block></block>
   <block id="79cfb9f00fa8ea603f631e679e453fad" category="paragraph">Para obter informações sobre como desinstalar o SnapCenter Plug-in para VMware vSphere, consulte <block ref="cae8a6db54fa4da6d80207fee61e78d1" category="inline-link-rx"></block>.</block>
+  <block id="820341dc67dd887805f2620efabe6669" category="paragraph">4,7</block>
+  <block id="55a10e59afdd4fd9142046de8d2f6de8" category="list-text">O SnapCenter suporta atualizações diretas apenas pelos caminhos mostrados na tabela acima. Se você precisar atualizar para uma versão que não seja diretamente suportada a partir da sua versão atual, você deve realizar uma série de atualizações incrementais. Por exemplo, se você estiver na versão 4.3.x do SnapCenter e quiser atualizar para a 4.6.x, primeiro deve atualizar para a 4.5.x e, em seguida, realizar uma atualização progressiva para a 4.6.x. Essa abordagem garante a compatibilidade entre as versões e evita problemas que podem ocorrer ao pular versões intermediárias. Sempre verifique o caminho de atualização suportado na tabela antes de iniciar sua atualização.</block>
+  <block id="37ee3e1d3e0d52113ab43d76cc30554d" category="list-text">Para obter informações sobre como atualizar o SnapCenter Plug-in para VMware vSphere, consulte <block ref="140f091e70d7a2d05862fe791778e9d6" category="inline-link-macro-rx"></block></block>
 </blocks>

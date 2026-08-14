@@ -45,6 +45,7 @@ NOTE: O mapeamento UUID no arquivo /etc/fstab não é suportado pelo SnapCenter.
 
 
 
+[[linux-host-requirements]]
 == Requisitos de Host Linux
 
 Você deve garantir que o host atenda aos requisitos antes de instalar o pacote de plug-ins do SnapCenter para Linux.
@@ -96,6 +97,7 @@ Para obter as informações mais recentes sobre versões suportadas, consulte o 
 
 
 
+[[configure-sudo-privileges-for-non-root-users-for-linux-host]]
 === Configure sudo Privileges para usuários não-root para host Linux
 
 O SnapCenter 2,0 e versões posteriores permitem que um usuário não root instale o pacote de plug-ins do SnapCenter para Linux e inicie o processo de plug-in. Você deve configurar o sudo Privileges para que o usuário não-root forneça acesso a vários caminhos.
@@ -175,6 +177,7 @@ IMPORTANT: O exemplo deve ser usado apenas como referência para criar seus pró
 |===
 
 
+[[aix-host-requirements]]
 == Requisitos de anfitrião do AIX
 
 Você deve garantir que o host atenda aos requisitos antes de instalar o pacote de plug-ins do SnapCenter para AIX.
@@ -222,6 +225,7 @@ Para obter as informações mais recentes sobre versões suportadas, consulte o 
 
 
 
+[[configure-sudo-privileges-for-non-root-users-for-aix-host]]
 === Configure sudo Privileges para usuários não-root para host AIX
 
 O SnapCenter 4,4 e posterior permite que um usuário não root instale o pacote de plug-ins do SnapCenter para AIX e inicie o processo de plug-in. Você deve configurar o sudo Privileges para que o usuário não-root forneça acesso a vários caminhos.
@@ -300,6 +304,7 @@ IMPORTANT: O exemplo deve ser usado apenas como referência para criar seus pró
 |===
 
 
+[[set-up-credentials]]
 == Configurar credenciais
 
 O SnapCenter usa credenciais para autenticar usuários para operações do SnapCenter. Você deve criar credenciais para instalar o pacote plug-in em hosts Linux ou AIX.
@@ -377,6 +382,7 @@ Depois de concluir a configuração das credenciais, você pode querer atribuir 
 
 
 
+[[configure-credentials-for-an-oracle-database]]
 == Configurar credenciais para um banco de dados Oracle
 
 Você deve configurar credenciais usadas para executar operações de proteção de dados em bancos de dados Oracle.

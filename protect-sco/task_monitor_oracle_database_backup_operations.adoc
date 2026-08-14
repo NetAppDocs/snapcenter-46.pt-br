@@ -51,6 +51,7 @@ O botão *View logs* exibe os logs detalhados para a operação selecionada.
 
 
 
+[[monitor-data-protection-operations-in-the-activity-pane]]
 == Monitore operações de proteção de dados no painel atividade
 
 [role="lead"]

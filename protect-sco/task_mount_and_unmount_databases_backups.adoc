@@ -18,6 +18,7 @@ NOTE: Em uma configuração do Flex ASM, você não pode executar a operação d
 
 
 
+[[mount-a-database-backup]]
 == Montar um backup de banco de dados
 
 Você deve montar manualmente um backup de banco de dados se quiser acessar os arquivos no backup.
@@ -84,6 +85,7 @@ As informações sobre os parâmetros que podem ser usados com o comando e suas 
 
 
 
+[[unmount-a-database-backup]]
 == Desmontar um backup de banco de dados
 
 Você pode desmontar manualmente um backup de banco de dados montado quando não quiser mais acessar arquivos no backup.

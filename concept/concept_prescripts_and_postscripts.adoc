@@ -15,6 +15,7 @@ Você pode usar prescripts e postscripts personalizados como parte de suas opera
 
 
 
+[[supported-script-types]]
 == Tipos de script suportados
 
 Os seguintes tipos de scripts são suportados para o Windows:
@@ -37,6 +38,7 @@ NOTE: Junto com shell bash padrão outros shells como sh-shell, k-shell e c-shel
 
 
 
+[[script-path]]
 == Caminho do script
 
 Todos os prescripts e pós-scripts executados como parte das operações do SnapCenter, em sistemas de storage não virtualizados e virtualizados, são executados no host do plug-in.
@@ -50,6 +52,7 @@ NOTE: O caminho do script é validado no momento da execução.
 
 
 
+[[where-to-specify-scripts]]
 == Onde especificar scripts
 
 Os scripts são especificados nas políticas de backup. Quando um trabalho de backup é iniciado, a diretiva associa automaticamente o script aos recursos que estão sendo copiados. Ao criar uma política de backup, você pode especificar os argumentos prescritor e postscript.
@@ -61,6 +64,7 @@ NOTE: Para UNIX, não é possível especificar vários scripts.
 
 
 
+[[script-timeouts]]
 == Tempos limite de script
 
 Para o Windows, o tempo limite é definido para 15 minutos e não pode ser modificado.
@@ -69,6 +73,7 @@ Para UNIX, o tempo limite é definido para 60 segundos, por padrão. Você pode 
 
 
 
+[[script-output]]
 == Saída de script
 
 O diretório padrão para os arquivos de saída de prescripts e postscripts do Windows é o Windows System32.

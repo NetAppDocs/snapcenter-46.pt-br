@@ -18,6 +18,7 @@ NOTE: Não é possível recuperar recursos do SAP HANA adicionados manualmente.
 
 
 
+[[complete-resource-restore]]
 == Restauração completa de recursos
 
 * Restaura todos os volumes, qtrees e LUNs de um recurso
@@ -28,6 +29,7 @@ NOTE: Se o recurso contiver volumes ou qtrees, as cópias Snapshot obtidas após
 
 
 
+[[file-level-restore]]
 == Restauração no nível do arquivo
 
 * Restaura arquivos de volumes, qtrees ou diretórios

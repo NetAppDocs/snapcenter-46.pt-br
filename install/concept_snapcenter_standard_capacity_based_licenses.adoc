@@ -31,12 +31,14 @@ Para obter informações sobre as licenças necessárias, link:../install/concep
 
 
 
+[[prerequisites-to-add-capacity-based-license]]
 == Pré-requisitos para adicionar licença baseada em capacidade
 
 Antes de adicionar uma licença baseada em capacidade, você deve calcular os requisitos de capacidade, recuperar o número de série da licença baseada em capacidade e, opcionalmente, gerar um arquivo de licença.
 
 
 
+[[calculate-capacity-requirements]]
 === Calcule os requisitos de capacidade
 
 Antes de obter uma licença baseada em capacidade do SnapCenter, calcule a quantidade de capacidade em um host que deve ser gerenciado pelo SnapCenter.
@@ -72,6 +74,7 @@ No entanto, se você quiser proteger apenas 2 TB dos 5 TB da capacidade total ut
 
 
 
+[[retrieve-the-serial-number-of-capacity-based-license]]
 === Recupere o número de série da licença baseada em capacidade
 
 O número de série da licença baseada em capacidade do SnapCenter está disponível na confirmação do pedido ou no pacote de documentação; no entanto, se você não tiver esse número de série, poderá recuperá-lo no site de suporte da NetApp.
@@ -95,6 +98,7 @@ image::../media/nss_license_selection.gif[seleção de licença nss]
 
 
 
+[[generate-a-netapp-license-file]]
 === Gerar um arquivo de licença NetApp
 
 Se você preferir não inserir as credenciais do site de suporte da NetApp e o número de série da licença SnapCenter na interface gráfica do usuário do SnapCenter, ou se não tiver acesso à Internet ao site de suporte da NetApp a partir do SnapCenter, poderá gerar um arquivo de licença NetApp (NLF) e, em seguida, fazer o download e armazenar o arquivo em um local acessível a partir do host do SnapCenter.
@@ -118,6 +122,7 @@ Se você preferir não inserir as credenciais do site de suporte da NetApp e o n
 
 
 
+[[add-capacity-based-license]]
 == Adicione uma licença baseada em capacidade
 
 Se você estiver usando o SnapCenter com plataformas ONTAP Select ou Cloud Volumes ONTAP, instale uma ou mais licenças baseadas em capacidade do SnapCenter.
@@ -219,6 +224,7 @@ O assunto padrão diz o seguinte: "Notificação de capacidade de licença da Sn
 
 
 
+[[how-snapcenter-calculates-capacity-usage]]
 === Como o SnapCenter calcula o uso da capacidade
 
 O SnapCenter calcula automaticamente o uso da capacidade uma vez por dia à meia-noite no storage ONTAP Select e Cloud Volumes ONTAP gerenciado. Para garantir que você tenha configurado o SnapCenter corretamente, você deve estar ciente de como o SnapCenter calcula a capacidade.

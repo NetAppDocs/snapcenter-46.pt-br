@@ -12,6 +12,7 @@ summary: Você pode usar outras maneiras alternativas de instalar o pacote de pl
 
 
 
+[[install-on-multiple-remote-hosts-using-cmdlets]]
 == Instale em vários hosts remotos usando cmdlets
 
 Você deve usar o cmdlet _Install-SmHostPackage_ PowerShell para instalar o pacote de plug-ins do SnapCenter para Linux ou o pacote de plug-ins do SnapCenter para AIX em vários hosts.
@@ -39,6 +40,7 @@ As informações sobre os parâmetros que podem ser usados com o cmdlet e suas d
 
 
 
+[[install-on-cluster-host]]
 == Instalar no host do cluster
 
 Você deve instalar o pacote de plug-ins do SnapCenter para Linux ou o pacote de plug-ins do SnapCenter para AIX em ambos os nós do host do cluster.
@@ -65,6 +67,7 @@ NOTE: Haverá volumes, diretórios e arquivos de bloqueio obsoletos se o failove
 
 
 
+[[install-plug-ins-package-for-linux-in-silent-mode-or-console-mode]]
 == Instale o pacote Plug-ins para Linux no modo silencioso ou no modo console
 
 Você pode instalar o pacote de plug-ins do SnapCenter para Linux no modo console ou no modo silencioso usando a interface de linha de comando (CLI).
@@ -123,6 +126,7 @@ IMPORTANT: A instalação do pacote plug-ins Registra os plug-ins no host e não
 
 
 
+[[install-plug-ins-package-for-aix-in-silent-mode]]
 == Instale o pacote Plug-ins para AIX no modo silencioso
 
 Você pode instalar o pacote de plug-ins do SnapCenter para AIX no modo silencioso usando a interface de linha de comando (CLI).

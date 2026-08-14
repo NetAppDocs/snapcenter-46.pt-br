@@ -17,6 +17,7 @@ O SnapCenter predefine os valores dos parâmetros que serão diretamente acessí
 
 
 
+[[supported-predefined-environment-variables-for-creating-backup-policy]]
 == Variáveis de ambiente predefinidas suportadas para a criação de política de backup
 
 * *SC_JOB_ID* especifica a ID da tarefa da operação.
@@ -232,6 +233,7 @@ Exemplos: Etiqueta horária, diária, semanal, mensal ou personalizada.
 
 
 
+[[supported-delimiters]]
 == Delimitadores suportados
 
 * *:* é usado para separar o nome do SVM e o nome do volume

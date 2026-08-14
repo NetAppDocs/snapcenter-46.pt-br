@@ -25,12 +25,14 @@ link:concept_develop_a_plug_in_for_your_application.html["Desenvolva um plug-in 
 
 
 
+[[general]]
 == Geral
 
 Se estiver a utilizar iSCSI, o serviço iSCSI tem de estar em execução.
 
 
 
+[[windows-hosts]]
 == Hosts do Windows
 
 * Você deve ter um usuário de domínio com Privileges de administrador local com permissões de login local no host remoto.
@@ -39,6 +41,7 @@ Se estiver a utilizar iSCSI, o serviço iSCSI tem de estar em execução.
 
 
 
+[[linux-hosts]]
 == Hosts Linux
 
 * Você deve ter habilitado a conexão SSH baseada em senha para o usuário root ou não root.

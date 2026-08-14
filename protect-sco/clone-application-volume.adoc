@@ -58,6 +58,7 @@ NOTE: Para notificação por e-mail, você deve ter especificado os detalhes do 
 
 
 
+[[split-an-application-volume-clone]]
 == Dividir um clone de volume de aplicativo
 
 Você pode usar o SnapCenter para dividir um recurso clonado do recurso pai. O clone que é dividido torna-se independente do recurso pai.
@@ -73,6 +74,7 @@ Você pode usar o SnapCenter para dividir um recurso clonado do recurso pai. O c
 
 
 
+[[delete-an-application-volume-clone]]
 == Excluir um clone de volume de aplicativo
 
 Você pode excluir clones se você achar que eles não são mais necessários. Não é possível excluir clones que atuam como fonte para outros clones.

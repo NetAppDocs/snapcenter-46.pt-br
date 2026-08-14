@@ -25,6 +25,7 @@ TIP: Se você se sentir confortável fazendo isso, você pode criar seus própri
 
 
 
+[[create-an-smb-share]]
 == Crie um compartilhamento SMB
 
 Você pode usar a página compartilhamentos do SnapCenter para criar um compartilhamento SMB3 em uma máquina virtual de storage (SVM).
@@ -84,6 +85,7 @@ O SnapCenter cria o compartilhamento SMB na SVM.
 
 
 
+[[delete-an-smb-share]]
 == Excluir um compartilhamento SMB
 
 Você pode excluir um compartilhamento SMB quando não precisar mais dele.

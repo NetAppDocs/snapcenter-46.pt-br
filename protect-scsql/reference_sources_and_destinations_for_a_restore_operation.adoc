@@ -15,12 +15,14 @@ summary: É possível restaurar um banco de dados SQL Server a partir de uma có
 
 
 
+[[sources-for-a-restore-operation]]
 == Fontes para uma operação de restauração
 
 É possível restaurar bancos de dados do storage primário ou secundário.
 
 
 
+[[destinations-for-a-restore-operation]]
 == Destinos para uma operação de restauração
 
 Você pode restaurar bancos de dados para vários destinos:

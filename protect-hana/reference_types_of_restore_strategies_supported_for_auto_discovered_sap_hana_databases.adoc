@@ -15,6 +15,7 @@ Você deve definir uma estratégia antes de executar operações de restauraçã
 
 
 
+[[complete-resource-restore]]
 == Restauração completa de recursos
 
 * Restaura todos os volumes, qtrees e LUNs de um recurso
@@ -30,6 +31,7 @@ NOTE: Se o recurso contiver volumes ou qtrees, as cópias Snapshot obtidas após
 
 
 
+[[tenant-database]]
 == Banco de dados de inquilinos
 
 * Restaura o banco de dados do locatário

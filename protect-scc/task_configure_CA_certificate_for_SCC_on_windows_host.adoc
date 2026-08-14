@@ -16,6 +16,7 @@ Plug-ins personalizados usam o arquivo _keystore.jks_, que está localizado em _
 
 
 
+[[manage-password-for-custom-plug-in-keystore-and-alias-of-the-ca-signed-key-pair-in-use]]
 == Gerenciar senha para armazenamento de chaves plug-in personalizado e alias do par de chaves assinadas CA em uso
 
 *Passos*
@@ -51,6 +52,7 @@ NOTE: A palavra-passe para o armazenamento de chaves plug-in personalizado e par
 
 
 
+[[configure-root-or-intermediate-certificates-to-custom-plug-in-trust-store]]
 == Configure certificados raiz ou intermediários para armazenamento de confiança de plug-in personalizado
 
 Você deve configurar os certificados raiz ou intermediários sem a chave privada para armazenamento de confiança de plug-in personalizado.
@@ -75,6 +77,7 @@ NOTE: Você deve adicionar o certificado de CA raiz e, em seguida, os certificad
 
 
 
+[[configure-ca-signed-key-pair-to-custom-plug-in-trust-store]]
 == Configure o par de chaves assinadas da CA para o armazenamento de confiança de plug-in personalizado
 
 Você deve configurar o par de chaves assinadas da CA para o armazenamento de confiança do plug-in personalizado.
@@ -112,6 +115,7 @@ Atualize este valor com a chave SCC_CERTIFICATE_ALIAS.
 
 
 
+[[configure-certificate-revocation-list-crl-for-snapcenter-custom-plug-ins]]
 == Configurar a lista de revogação de certificados (CRL) para plug-ins personalizados do SnapCenter
 
 *Sobre esta tarefa*

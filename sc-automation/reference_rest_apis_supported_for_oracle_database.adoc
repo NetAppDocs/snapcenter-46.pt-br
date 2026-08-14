@@ -15,6 +15,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[credentials]]
 == Credenciais
 
 * Registre a credencial no servidor SnapCenter
@@ -26,6 +27,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[host]]
 == Host
 
 * Adicionar host
@@ -35,6 +37,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[plug-in]]
 == Plug-in
 
 * Instalação de plug-ins no host existente
@@ -43,6 +46,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[policy]]
 == Política
 
 * Criar nova política
@@ -53,6 +57,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[resource-groups]]
 == Grupos de recursos
 
 * Proteger o grupo de recursos
@@ -66,6 +71,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[resources]]
 == Recursos
 
 * Descubra bancos de dados
@@ -74,6 +80,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[backups]]
 == Backups
 
 * Inicie uma operação de backup de recursos
@@ -85,6 +92,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[restore]]
 == Restaurar
 
 * Restaurar uma cópia de segurança
@@ -92,6 +100,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[clone-refresh]]
 == Atualização de clone
 
 * Crie uma especificação de clone do Oracle Database a partir de um backup especificado
@@ -101,6 +110,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[rbac]]
 == RBAC
 
 * Atribua recursos a um usuário ou grupo
@@ -109,6 +119,7 @@ O banco de dados Oracle usa APIS REST para executar as seguintes operações:
 
 
 
+[[configuration-settings]]
 == Definições de configuração
 
 * Recuperar e modificar as configurações

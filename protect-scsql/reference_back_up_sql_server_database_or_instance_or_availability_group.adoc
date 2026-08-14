@@ -28,6 +28,7 @@ Você também pode usar cmdlets do PowerShell manualmente ou em scripts para exe
 
 
 
+[[how-snapcenter-backs-up-databases]]
 == Como o SnapCenter faz backup de bancos de dados
 
 O SnapCenter usa a tecnologia de cópia Snapshot para fazer backup dos bancos de dados do SQL Server que residem em LUNs ou VMDKs. O SnapCenter cria o backup criando cópias Snapshot dos bancos de dados.

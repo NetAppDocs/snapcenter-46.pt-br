@@ -12,12 +12,14 @@ summary: O plug-in personalizado criado pode ser instalado no host usando o serv
 
 
 
+[[custom-plug-in-in-snapcenter]]
 == Plug-in personalizado no SnapCenter
 
 O plug-in personalizado criado usando Java, PERL ou estilo NATIVO pode ser instalado no host usando o servidor SnapCenter para habilitar a proteção de dados do seu aplicativo. Você deve ter exportado o plug-in para instalá-lo no host SnapCenter usando o procedimento fornecido neste tutorial.
 
 
 
+[[creating-a-plug-in-description-file]]
 === Criando um arquivo de descrição do plug-in
 
 Para cada plug-in criado, você deve ter um arquivo de descrição. O arquivo de descrição descreve os detalhes do plug-in. O nome do arquivo deve ser Plugin_descritor.xml.
@@ -145,6 +147,7 @@ Um exemplo do arquivo Plugin_descriptor.xml para o plug-in personalizado DB2 é 
 ....
 
 
+[[creating-a-zip-file]]
 === Criando um arquivo ZIP
 
 Depois que um plug-in é desenvolvido e um arquivo descritor é criado, você deve adicionar os arquivos plug-in e o arquivo Plugin_descriptor.xml a uma pasta e zip-lo.
@@ -165,6 +168,7 @@ Exemplos:
 
 
 
+[[uploading-the-plug-in-zip-file]]
 === Carregar o ficheiro ZIP do plug-in
 
 Você deve carregar o arquivo ZIP do plug-in para o servidor SnapCenter para que o plug-in esteja disponível para implantação no host desejado.
@@ -192,6 +196,7 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2880726["Guia de referênc
 
 
 
+[[deploying-the-custom-plug-ins]]
 === Implantando os plug-ins personalizados
 
 O plug-in personalizado carregado agora está disponível para implantação no host desejado como parte do fluxo de trabalho *Add* e *Modify Host*. Você pode ter várias versões de plug-ins carregados para o servidor SnapCenter e pode selecionar a versão desejada para implantar em um host específico.

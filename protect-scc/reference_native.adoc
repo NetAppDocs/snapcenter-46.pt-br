@@ -26,10 +26,12 @@ O plug-in deve ser executável
 
 
 
+[[general-plug-in-handling]]
 == Manuseamento geral do plug-in
 
 
 
+[[logging-error-messages]]
 === Registar mensagens de erro
 
 Cada operação pode enviar mensagens de volta para o servidor, que exibe e armazena o conteúdo. Uma mensagem contém o nível da mensagem, um carimbo de data/hora e um texto da mensagem. As mensagens multilinha são suportadas.
@@ -42,6 +44,7 @@ SC_MESSAGE#<level>#<timestamp>#<message>
 ....
 
 
+[[using-plug-in-stubs]]
 === Usando stubs plug-in
 
 Os plug-ins do SnapCenter devem implementar stubs de plug-in. Estes são métodos que o servidor SnapCenter chama com base em um fluxo de trabalho específico.
@@ -105,6 +108,7 @@ Este esboço é responsável por executar todas as ações de restauração. Iss
 |===
 
 
+[[examples]]
 === Exemplos
 
 

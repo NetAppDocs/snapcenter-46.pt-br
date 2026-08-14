@@ -15,6 +15,7 @@ Você pode começar rapidamente a usar a API REST do SnapCenter. Acessar a API f
 
 
 
+[[hello-world]]
 == Olá mundo
 
 Você pode executar um comando simples em seu sistema para começar a usar a API REST do SnapCenter e confirmar sua disponibilidade.

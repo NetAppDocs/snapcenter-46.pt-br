@@ -32,6 +32,7 @@ Para obter mais informações, https://library.netapp.com/ecm/ecm_download_file/
 
 
 
+[[additional-f5-configuration-information]]
 == Informações adicionais de configuração do F5
 
 * Depois de instalar e configurar o SnapCenter para alta disponibilidade, edite o atalho da área de trabalho do SnapCenter para apontar para o IP do cluster F5.

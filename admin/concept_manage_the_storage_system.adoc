@@ -15,6 +15,7 @@ Depois de adicionar o sistema de armazenamento, você pode modificar a configura
 
 
 
+[[modify-storage-system-configuration]]
 == Modificar a configuração do sistema de storage
 
 Você pode usar o SnapCenter para modificar a configuração do sistema de armazenamento se quiser alterar o nome de usuário, senha, plataforma, porta, protocolo, período de tempo limite, endereço IP preferido ou opções de mensagens.
@@ -72,6 +73,7 @@ Para visualizar todos os clusters que foram adicionados e modificar a configura�
 
 
 
+[[delete-the-storage-system]]
 == Elimine o sistema de armazenamento
 
 Você pode usar o SnapCenter para excluir qualquer sistema de storage não utilizado.
